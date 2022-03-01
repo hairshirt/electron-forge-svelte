@@ -1,21 +1,20 @@
 {
-  "name": "svelte-electron-forge",
-  "productName": "svelte-electron-forge",
+  "name": "moon-glaive",
+  "productName": "moon-glaive",
   "version": "1.0.0",
   "description": "Svelte + Electron Forge",
-  "main": "src/index.js",
+  "main": "src/main.js",
   "scripts": {
     "start": "concurrently \"npm:svelte-dev\" \"electron-forge start\"",
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "lint": "echo \"No linting configured\"",
     "svelte-build": "rollup -c",
     "svelte-dev": "rollup -c -w",
     "svelte-start": "sirv public"
   },
   "keywords": [],
-  "author": "jeffd23",
+  "author": "hairshirt",
   "license": "MIT",
   "config": {
     "forge": {
